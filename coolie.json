@@ -1,0 +1,30 @@
+{
+  "js": {
+    "src": [
+      "./static/js/app/**/*.js"
+    ],
+    "coolie-config.js": "./static/js/coolie-config.js",
+    "dest": "./static/js/"
+  },
+  "css": {
+    "dest": "./static/css/",
+    "minify": {
+      "compatibility": "ie7"
+    }
+  },
+  "html": {
+    "src": [
+      "./views/**/*.html"
+    ],
+    "minify": true
+  },
+  "resource": {
+    "dest": "./static/res/",
+    "minify": true
+  },
+  "copy": [],
+  "dest": {
+    "dirname": "../dest/",
+    "host": ""
+  }
+}
